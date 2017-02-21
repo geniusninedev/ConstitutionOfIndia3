@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nineinfosys.constitutionofindia">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/constitution"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="orientation|screenSize|keyboardHidden">
+
+        </activity>
+
+        <activity
+            android:name="nineinfosys.constitutionofindia.Preamable.Preamable"
+            android:label="@string/app_name8"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity
+            android:name="nineinfosys.constitutionofindia.Preamable.History"
+            android:label="@string/app_name3"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity android:name="nineinfosys.constitutionofindia.Article.Article"
+            android:label="@string/app_name9"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity android:name="nineinfosys.constitutionofindia.Article.ArticleDetails"
+            android:label="@string/app_name9"
+            android:configChanges="orientation|screenSize|keyboardHidden"></activity>
+        <activity android:name="nineinfosys.constitutionofindia.Schedule.Schedule"
+            android:label="@string/app_name21"
+            android:configChanges="orientation|screenSize|keyboardHidden"></activity>
+        <activity android:name="nineinfosys.constitutionofindia.Schedule.ScheduleDetails"
+            android:label="@string/app_name21"
+            android:configChanges="orientation|screenSize|keyboardHidden"></activity>
+        <activity android:name="nineinfosys.constitutionofindia.Appendix.Appendix"
+            android:label="@string/app_name13"
+            android:configChanges="orientation|screenSize|keyboardHidden"></activity>
+        <activity android:name="nineinfosys.constitutionofindia.Appendix.AppendixDetails"
+            android:label="@string/app_name13"
+            android:configChanges="orientation|screenSize|keyboardHidden"></activity>
+    </application>
+
+</manifest>

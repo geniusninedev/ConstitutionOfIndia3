@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ConstitutionOfIndia</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+
+
+
+    <string name="app_name2">Home</string>
+    <string name="action_send">Send</string>
+    <string name="app_name3">भारतीय संविधान का इतिहास</string>
+    <string name="app_name8">प्रस्तावना</string>
+    <string name="app_name9">अनुच्छेद</string>
+    <string name="app_name21">अनुसूची</string>
+    <string name="app_name5">भारतीय संविधान</string>
+    <string name="app_name13">परिशिष्ट</string>
+    </resources>
